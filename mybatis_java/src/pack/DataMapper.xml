@@ -21,7 +21,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   update sangdata set sang=#{sang} where code=#{code}
  </update>
  
- <delete id="deleteData" parameterType="string">
+ <delete id="deleteData" parameterType="int">
   delete from sangdata where code=#{code}
  </delete>
 </mapper>
